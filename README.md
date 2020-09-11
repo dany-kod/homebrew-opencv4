@@ -6,12 +6,12 @@ This is a tap for installing opencv via homebrew with QT enabled.
 
 -----
 
-To install just use the following 
+First do the tap, by using the following 
 
 	brew tap kod3000/opencv4/opencv
 
 
-Next install it via the following command 
+Next install it via the command 
 
 
 	brew install kod3000/opencv4/opencv
