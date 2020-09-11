@@ -87,8 +87,8 @@ class Opencv < Formula
       -DWITH_GSTREAMER=OFF
       -DWITH_JASPER=OFF
       -DWITH_OPENEXR=ON
-      -DWITH_OPENGL=OFF
-      -DWITH_QT=OFF
+      -DWITH_OPENGL=ON
+      -DWITH_QT=ON
       -DWITH_TBB=ON
       -DWITH_VTK=ON
       -DBUILD_opencv_python2=OFF
