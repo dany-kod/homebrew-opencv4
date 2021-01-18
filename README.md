@@ -1,4 +1,4 @@
-# Homebrew Install OpenCV 4 + QT + OpenGL
+# Homebrew Install OpenCV 4.5.1 + QT + OpenGL
 
 ----
 
