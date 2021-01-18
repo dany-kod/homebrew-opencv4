@@ -37,16 +37,9 @@ class Opencv < Formula
   depends_on "vtk"
   depends_on "webp"
 
-  resource "contrib" do
-    url "https://github.com/opencv/opencv_contrib/archive/4.4.0.tar.gz"
-    sha256 "a69772f553b32427e09ffbfd0c8d5e5e47f7dab8b3ffc02851ffd7f912b76840"
-
-    # additional vtk 9 support, remove after next release
-    # upstream PR https://github.com/opencv/opencv_contrib/pull/2659
-    patch do
-      url "https://github.com/opencv/opencv_contrib/commit/aace65cc1269629f32874389b33e85fdb7819b02.diff?full_index=1"
-      sha256 "af98e588626cb79e5064995e6cf22f55e40518649cf3eed0d5bd6963f2a19e20"
-    end
+ resource "contrib" do
+    url "https://github.com/opencv/opencv_contrib/archive/4.5.1.tar.gz"
+    sha256 "12c3b1ddd0b8c1a7da5b743590a288df0934e5cef243e036ca290c2e45e425f5"
   end
 
   def install
